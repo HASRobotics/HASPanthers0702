@@ -1,0 +1,29 @@
+// Create (Roomba) Pseudocode
+
+//Defining Variables:
+int arm = 0;
+
+//Main Code:
+#include <kipr/botball.h>
+
+int main()
+{
+//start by waking up the create
+create_connect();
+//move forward (integers rep speed of right and left motor)
+create_drive_direct(100, 100);
+//stop it from moving
+create_stop();
+
+//turn right
+set_create_total_angle(90);
+while () {
+//move forward towards the next tower
+//now we want to lift the arm up
+
+//now we put the cube where it’s supposed to go
+}
+
+create_disconnect();
+return 0;
+}
