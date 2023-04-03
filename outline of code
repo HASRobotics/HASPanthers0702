@@ -24,6 +24,9 @@ while () {
 //now we put the cube where it’s supposed to go
 }
 
+//move the create backwards so that the cube falls down
+create_drive_direct(-100, -100);
+
 create_disconnect();
 return 0;
 }
