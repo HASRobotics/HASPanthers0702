@@ -17,15 +17,22 @@ create_stop();
 
 //turn right
 set_create_total_angle(90);
+//turn create so that the robot is facing the cubes
+
+//move the create backwards so that the cube falls down
+create_drive_direct(-100, -100);
+
+//turn right 
+set_create_total_angle(90); 
+create_drive_direct(20, 20); 
+//fix angle 
+
+//code for lowering the mechanism 
 while () {
 //move forward towards the next tower
 //now we want to lift the arm up
 
-//now we put the cube where it’s supposed to go
 }
-
-//move the create backwards so that the cube falls down
-create_drive_direct(-100, -100);
 
 create_disconnect();
 return 0;
